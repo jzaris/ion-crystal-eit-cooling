@@ -1,0 +1,29 @@
+# Compiled C/C++ files
+*.o
+*.exe
+
+# Build directories
+obj/
+bin/
+
+# Generated example data
+examples/output/*
+!examples/output/.gitkeep
+
+examples/input/*
+!examples/input/.gitkeep
+
+examples/energy_init/*
+!examples/energy_init/.gitkeep
+
+examples/normal_modes/*
+!examples/normal_modes/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor clutter
+.DS_Store
+*~
