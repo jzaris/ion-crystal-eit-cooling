@@ -1,4 +1,4 @@
-#EIT cooling of trapped ion crystals
+# EIT cooling of trapped ion crystals
 
 This is a compiled semiclassical molecular-dynamics code in C++ capable of simulating electromagnetically-induced transparency (EIT) cooling of large ion crystals confined in a Penning trap.  Penning trap parameters such as the magnetic field magnitude, axial confinement frequency, and rotating wall strength and frequency can be specified by the user.  Similarly, ion mass and charge can be specified.  While this code has only been tested using particles with the same charge and mass, it should be able to handle the general case of unique charges and masses with minimal, if any, modifications.  To accelerate the calculation of Coulomb forces between ions, the code incorporates the fast multipole method using the FMM3D library. Therefore, the time to compute Coulomb forces scales approximately linearly with ion number when N is sufficiently large, making this code especially useful in studying large crystals. 
 
